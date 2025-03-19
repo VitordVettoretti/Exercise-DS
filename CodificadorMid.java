@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.util.Base64;
 public class CodificadorMid implements Codificador {
     public String getNome() {
-        return "Codificador Base64";
+        return "CodificadorMid";
     }
 
     public LocalDate getDataCriacao() {

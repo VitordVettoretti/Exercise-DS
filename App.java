@@ -1,6 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
         Codificador cod = new CodificadorSimples();
+        Codificador codM = new CodificadorMid();
+        Codificador codH = new CodificadorHigh();
 
         System.out.println("Codificador: "+cod.getNome());
         System.out.println("Versao: "+cod.getDataCriacao());
@@ -12,6 +14,6 @@ public class App {
 
         System.out.println("Texto original: "+texto);
         System.out.println("Texto codificado: "+codificado);
-        System.out.println("Texto decodificado: "+decodificado);
+        System.out.println("Texto decodificado: " + decodificado);
     }
 }

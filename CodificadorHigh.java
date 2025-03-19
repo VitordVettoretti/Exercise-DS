@@ -4,7 +4,7 @@ public class CodificadorHigh implements Codificador {
     private static final int DESLOCAMENTO = 3; // Deslocamento de 3 posições
 
     public String getNome() {
-        return "Codificador Cesar";
+        return "CodificadorHigh";
     }
 
     public LocalDate getDataCriacao() {
