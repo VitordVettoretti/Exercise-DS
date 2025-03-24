@@ -7,7 +7,6 @@ public class Factory {
 
     private Factory() {
         codificadores = new HashMap<>();
-        // Assuming CodificadorCesar and CodificadorBase64 are already implemented
         codificadores.put(1, new CodificadorSimples());
         codificadores.put(2, new CodificadorMid());
         codificadores.put(3, new CodificadorHigh());
