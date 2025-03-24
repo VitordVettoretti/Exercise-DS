@@ -10,7 +10,7 @@ public class CodificadorMid implements Codificador {
     }
 
     public int getNivelSeguranca() {
-        return 3;
+        return 2;
     }
 
     public String codifica(String str) {

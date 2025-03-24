@@ -12,7 +12,7 @@ public class CodificadorHigh implements Codificador {
     }
 
     public int getNivelSeguranca() {
-        return 2;
+        return 3;
     }
 
     public String codifica(String str) {
